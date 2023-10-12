@@ -12,7 +12,6 @@ import {useSelector, useDispatch} from 'react-redux';
 import {displayAuthorization, getResponseAccountSettings, getErrorAccountSettings, logOutAccount} from '../store/actions';
 
 
-
 function Header() {
     // стейт нажато ли бургер меню
     const [clickedBM, setClickedBM] = React.useState(false);

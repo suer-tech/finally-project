@@ -3,7 +3,6 @@ import './authorization.scss';
 import authorizationImage from './images/authorizationImage.svg';
 import FormsLogin from './form_authorization/FormsLogin';
 
-
 function Authorization () {
 
     return (

@@ -6,7 +6,6 @@ import Tarrifs from './tariffs/tariffs';
 import {useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
 
-
 function Home () {
 
     // достаем токен из стора

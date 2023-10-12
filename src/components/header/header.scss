@@ -1,5 +1,13 @@
 @import '../../App.scss';
 
+.headeader {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    z-index: 3;
+}
+
 header {
     position: sticky;
     top: 0;

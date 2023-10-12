@@ -1,6 +1,7 @@
 import css from "./Card.module.css";
 import Button from '../../ui/Button/Button'
 
+
 const Card = ({color, image, includes, price, oldprice, tariff, credit, current}) => {
   return (<div className={css.rate_item}>
     <div className={css.card_head} style={{background:{color}}}>
